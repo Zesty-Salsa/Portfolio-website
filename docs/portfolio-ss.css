@@ -159,7 +159,10 @@ a {
     font-style: italic;
     font-size: 2.5rem;
     font-weight: 300;
-    margin: 0em 10em 6rem 10em;
+    max-width: 1000px;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 .projects-grid {
@@ -205,8 +208,31 @@ a {
     object-fit: cover;
     object-position: 50% 30%;
 }
+
+#spiritimg {
+  filter:contrast(75%);
+}
   
 .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-green);
+}
+
+.about-section > p {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: var(--main-gray);
+  max-width: 1000px;
+  text-align: center;
 }
