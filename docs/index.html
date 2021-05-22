@@ -1,60 +1,67 @@
 <!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="portfolio-ss.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&   family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
 <html>
 
-<head>
-     <link rel="stylesheet" type="text/css" href="portfolio-ss.css" />
-     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat&display=swap" rel="stylesheet"> 
-</head>
+<div class="class="container-fluid>
+  <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">Front Page</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#about-section">More About Me</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-<nav id="navbar" class="nav">
-    <ul class="nav-list">
-      <li>
-        <a href="#welcome-section">Front Page</a>
-      </li>
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-      <li>
-        <a href="#about-section">More About Me</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
+    <section id="welcome-section" class="welcome-section container-fluid">
+      <h1>Hi, I'm Zeki...</h1>
+      <p>and here are some of my projects!</p>
+    </section>
 
-  <section id="welcome-section" class="welcome-section">
-    <h1>Hi, I'm Zeki...</h1>
-    <p>and here are some of my projects!</p>
+    <section id="projects" class="projects-section container-fluid">
+      <h2 class="projects-section-header">Projects</h2>
+          <h3 class="subheader">I am using this website to learn web development and make some digital humanities projects. Here is some of what I've been working on.</h3>
+          <div class="projects-grid row">
+              <a href="https://soupbonecollective.com/Lukang"
+                target="_blank"
+                class="project project-tile col-m-8">
+                <img class="project-image"
+                  src="https://lh6.googleusercontent.com/aD7kXFIISyOunjyHYBchs8Mmly4hJ-p3Mn6fXmRCHQK4XnpBKDgFuseRklXBiS7_Ej5hOoCfAhhvyU2dG6Kn3mTTbRpcHWAcRzNoPXhh_vg0a8GMjaeNoeTFejZfYEnOwYxw6Z32"
+                  alt="Picture of Lukang Alley">
+                <p class="project-title">
+                  Poetry: "Lukang"
+                </p>
+              </a>
+              <a href="https://github.com/Zesty-Salsa/StudyInSpirits"
+                target="_blank"
+                class="project project-tile col-m-8">
+                <img class="project-image" id="spiritimg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/36/A_Study_in_Scarlet_Friston_01.jpg"
+                  alt="Arthur Conan Doyle Study In Scarlet Cover">
+                <p class="project-title">
+                  A Study in Spirits
+                </p>
+              </a>
   </section>
 
-  <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">Projects</h2>
-        <h3 class="subheader">I am using this website to learn web development and make some digital humanities projects. Here is some of what I've been working on.</h3>
-        <div class="projects-grid">
-            <a href="https://soupbonecollective.com/Lukang"
-              target="_blank"
-              class="project project-tile">
-              <img class="project-image"
-                src="https://lh6.googleusercontent.com/aD7kXFIISyOunjyHYBchs8Mmly4hJ-p3Mn6fXmRCHQK4XnpBKDgFuseRklXBiS7_Ej5hOoCfAhhvyU2dG6Kn3mTTbRpcHWAcRzNoPXhh_vg0a8GMjaeNoeTFejZfYEnOwYxw6Z32"
-                alt="Picture of Lukang Alley">
-              <p class="project-title">
-                Poetry: "Lukang"
-              </p>
-            </a>
-            <a href="https://github.com/Zesty-Salsa/StudyInSpirits"
-              target="_blank"
-              class="project project-tile">
-              <img class="project-image" id="spiritimg"
-                src="https://upload.wikimedia.org/wikipedia/commons/3/36/A_Study_in_Scarlet_Friston_01.jpg"
-                alt="Arthur Conan Doyle Study In Scarlet Cover">
-              <p class="project-title">
-                A Study in Spirits
-              </p>
-            </a>
- </section>
-
- <section id="about-section" class="about-section">
-  <h1>About Me</h1>
-  <p>I am interested in American religious history and vernacular culture. I have mainly written on spiritualism and related religious movements in the eighteenth and nineteenth century. In the future you may find other projects on this page about other facets of American religious history, folklore, or poetry.</p>
+  <section id="about-section" class="about-section container-fluid">
+    <h1>About Me</h1>
+    <p>I am interested in American religious history and vernacular culture. I have mainly written on spiritualism and related religious movements in the eighteenth and nineteenth century. In the future you may find other projects on this page about other facets of American religious history, folklore, or poetry.</p>
 </section>
+</div>
